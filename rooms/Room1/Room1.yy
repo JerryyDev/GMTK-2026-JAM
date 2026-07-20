@@ -13,8 +13,8 @@
   ],
   "name":"Room1",
   "parent":{
-    "name":"GMTK-2026-JAM",
-    "path":"GMTK-2026-JAM.yyp",
+    "name":"Rooms",
+    "path":"folders/Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
