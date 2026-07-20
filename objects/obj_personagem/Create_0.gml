@@ -30,7 +30,16 @@ Movimento = function(){
 	velh = (right - left) * velhMAX;
 	velv = (down - up) * velvMAX;
 	
+	if(place_meeting(x + velh, y, obj_wall)){
+		velh = 0;	
+	}
+	
 	x += velh;
+	
+	if(place_meeting(x,y + velv, obj_wall)){
+		velv = 0;
+	}
+	
 	y += velv;
 }	
 #endregion
