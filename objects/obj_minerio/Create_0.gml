@@ -9,6 +9,7 @@ levei_dano = false;
 SoltaCristais = function(){
 	instance_destroy();
 	
+	screenshake(3,5);
 	
 	var qtd,objeto;
 	qtd = random_range(1,4);

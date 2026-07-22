@@ -8,5 +8,6 @@ if (speed == 0 && instance_exists(obj_personagem)) {
         move_towards_point(obj_personagem.x, obj_personagem.y, 6);
 		instance_destroy();
 		global.cristais++;
+		audio_play_sound(snd_pega_cristal,0,false);
     }
 }

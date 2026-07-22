@@ -1,17 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_mesa",
+  "%Name":"obj_gerador",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_mesa",
+  "name":"obj_gerador",
   "overriddenProperties":[],
   "parent":{
-    "name":"UI",
-    "path":"folders/Objetos/Game/UI.yy",
+    "name":"gerador",
+    "path":"folders/Objetos/Game/gerador.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_mesa",
-    "path":"sprites/spr_mesa/spr_mesa.yy",
+    "name":"spr_gerador",
+    "path":"sprites/spr_gerador/spr_gerador.yy",
   },
   "spriteMaskId":null,
   "visible":true,
