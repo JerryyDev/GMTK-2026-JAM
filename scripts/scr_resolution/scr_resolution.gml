@@ -1,4 +1,4 @@
-global.index_resolution = 1;
+global.index_resolution = 0;
 
 function MudarResolucao(_largura, _altura) {
     if (_largura <= 0 || _altura <= 0) exit;

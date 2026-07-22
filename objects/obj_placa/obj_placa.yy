@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_minerio_icon",
+  "%Name":"obj_placa",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_minerio_icon",
+  "name":"obj_placa",
   "overriddenProperties":[],
   "parent":{
     "name":"UI",
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_cristal_icon",
-    "path":"sprites/spr_cristal_icon/spr_cristal_icon.yy",
+    "name":"spr_placa",
+    "path":"sprites/spr_placa/spr_placa.yy",
   },
   "spriteMaskId":null,
   "visible":true,
