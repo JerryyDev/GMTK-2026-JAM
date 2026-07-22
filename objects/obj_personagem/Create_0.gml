@@ -2,8 +2,8 @@
 
 velh			= 0;
 velv			= 0;
-velhMAX			= 3;
-velvMAX			= 3;
+velhMAX			= 1.25;
+velvMAX			= 1.25;
 
 
 left			= false;

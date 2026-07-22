@@ -9,8 +9,8 @@
   "name":"obj_personagem",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Principais",
+    "path":"folders/Objetos/Principais.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,0 +1,1 @@
+fundo_atual = -1;
