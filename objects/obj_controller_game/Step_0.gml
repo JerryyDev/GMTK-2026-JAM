@@ -17,3 +17,16 @@ if(global.index_resolution == 1 && mudei_res == false){
 	
 	alarm[0] = 2;
 }
+
+
+if(global.cristais <= 0){
+	global.cristais = 0;	
+}
+
+if(global.index_energia >= 5){
+	global.index_energia = 5;
+}
+
+if(global.timer <= 0){
+	global.timer = 0;	
+}

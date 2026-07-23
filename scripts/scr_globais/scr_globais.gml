@@ -1,4 +1,4 @@
-global.timer = 1000;
+global.timer = 60;
 global.cristais = 0;
 global.coins = 0;
 global.index_energia = 0;
@@ -12,6 +12,20 @@ global.energia = [
 ];
 
 
+global.suga_cristal = false;
+
+global.upgrade_mineracao = 0;
+
+global.fechar = false;
+
+
+global.cristais_entregue = 0;
+global.meta_cristais = 8;
+
+global.comprado = false;
+global.comprado2 = false;
+
+global.timer_ativo = true;
 
 function screenshake(_magnitude, _time) {
     if (!instance_exists(obj_screenshake)) {

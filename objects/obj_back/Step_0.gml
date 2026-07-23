@@ -1,3 +1,5 @@
+
+
 var Mouse_position = position_meeting(mouse_x,mouse_y,id);
 
 
@@ -11,7 +13,8 @@ if(Mouse_position){
 
 	
 	if(mouse_check_button_pressed(mb_left)){
-		room_goto(rm_menu);
+		global.proxima_room = rm_menu;
+		instance_create_layer(0, 0, "UI", obj_trans)
 	}
 }else{
 	image_index = 0;

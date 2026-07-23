@@ -14,7 +14,8 @@ if(Mouse_position){
 	image_yscale = lerp(image_yscale,1.1,0.2);
 	
 	if(mouse_check_button_pressed(mb_left)){
-		room_goto(rm_jogo);	
+		global.proxima_room = rm_jogo;
+		instance_create_layer(0, 0, "UI", obj_trans)
 	}
 }else{
 	image_index = 0;

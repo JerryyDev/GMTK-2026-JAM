@@ -1,9 +1,11 @@
 index_sprites = [
 	spr_ampulheta,
-	spr_cristal_icon,
-	spr_bateria
+	spr_cristal_icon
 ];
 
+index_bateria = 0;
+
+index_timer = room_speed*1;
 
 
 DesenhaItens = function(){
@@ -15,7 +17,7 @@ DesenhaItens = function(){
 	margem = 10;
 	sprite = 0;
 	
-	repeat(3){
+	repeat(2){
 		draw_sprite_ext(index_sprites[sprite],0,xx,yy+margem,xscale,yscale,0,c_white,1);
 		sprite++;
 		margem += 30;

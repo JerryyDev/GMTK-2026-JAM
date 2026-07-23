@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snd_pega_cristal",
   "parent":{
-    "name":"Menu",
-    "path":"folders/Sons/Menu.yy",
+    "name":"cristais",
+    "path":"folders/Sons/cristais.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

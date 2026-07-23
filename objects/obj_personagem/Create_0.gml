@@ -55,13 +55,16 @@ Movimento = function(){
 		}
 	}
 	
+	if(global.index_energia >= 5){
+		global.index_energia = 5;
+		exit;	
+	}
+	
 	if(passos >= limite_de_passos){
 		passos = 0;
 		timer_passo = timer_passo - 15;
 		limite_de_passos = limite_de_passos + 2;
 		global.index_energia++;
 	}
-	
-	show_debug_message(passos);
 }	
 #endregion

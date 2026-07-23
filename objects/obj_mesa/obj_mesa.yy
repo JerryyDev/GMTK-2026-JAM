@@ -10,8 +10,8 @@
   "name":"obj_mesa",
   "overriddenProperties":[],
   "parent":{
-    "name":"UI",
-    "path":"folders/Objetos/Game/UI.yy",
+    "name":"upgrade",
+    "path":"folders/Objetos/Game/UI/upgrade.yy",
   },
   "parentObjectId":null,
   "persistent":false,
